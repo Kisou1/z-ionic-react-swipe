@@ -1,0 +1,37 @@
+{
+  "name": "z-ionic-react-swipe",
+  "version": "0.0.1",
+  "description": "\"A library for IONIC React that replicates the animation of a swipe to the right or left, including like and dislike buttons, hooks, and components.\"",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "rimraf  dist/ && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc -p ./tsconfig.cjs.json"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.4",
+    "@types/react": "^18.2.21",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@ionic/react": "^6.0.0",
+    "@ionic/react-router": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kisou1/z-ionic-react-swipe.git"
+  },
+  "keywords": [
+    "z-react"
+  ],
+  "author": "Zanna Filippo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kisou1/z-ionic-react-swipe/issues"
+  },
+  "homepage": "https://github.com/Kisou1/z-ionic-react-swipe#readme"
+}
